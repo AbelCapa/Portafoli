@@ -1,0 +1,20 @@
+:root{
+    --color-principal: #889600;
+}
+
+h1{
+    color: var(--color-principal);
+}
+
+a{
+    color: var(--color-principal);
+}
+
+.rectangulo {
+    --altura: 5rem;
+    
+    height: var(--altura);
+    width: calc(var(--altura) * 2); 
+    background-color: rgb(26, 126, 6); 
+    
+}
